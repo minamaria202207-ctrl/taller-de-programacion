@@ -66,6 +66,3 @@ Los ejercicios del capítulo 4 usan ficheros de texto: ejecútelos **desde la ca
 | 5.5 | Matriz de 20×20 con filas pares a unos e impares a ceros | [`ejercicio05_matriz_20x20`](capitulo5/ejercicio05_matriz_20x20) |
 | 5.6 | Desglose de una cantidad en billetes y monedas | [`ejercicio06_desglose_billetes`](capitulo5/ejercicio06_desglose_billetes) |
 
-## Nota sobre la numeración
-
-Los números 2.1, 2.2… son del taller (orden de resolución), no los números impresos en el libro.
