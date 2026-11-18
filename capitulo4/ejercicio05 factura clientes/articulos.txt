@@ -1,0 +1,3 @@
+A1;Cuaderno;4500
+A2;Lápiz;1200
+A3;Borrador;800

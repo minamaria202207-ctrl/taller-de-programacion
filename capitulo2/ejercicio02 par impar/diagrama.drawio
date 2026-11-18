@@ -1,0 +1,54 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Par o impar" id="d1">
+    <mxGraphModel dx="1278" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ini" parent="1" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Inicio" vertex="1">
+          <mxGeometry height="44" width="130" x="355" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="leer" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Leer N" vertex="1">
+          <mxGeometry height="56" width="230" x="305" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="res" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="R = N mod 2" vertex="1">
+          <mxGeometry height="56" width="230" x="305" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="d" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="¿R = 0?" vertex="1">
+          <mxGeometry height="96" width="230" x="305" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="par" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Escribir: N es PAR" vertex="1">
+          <mxGeometry height="56" width="230" x="305" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="imp" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Escribir: N es IMPAR" vertex="1">
+          <mxGeometry height="56" width="230" x="645" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="fin" parent="1" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Fin" vertex="1">
+          <mxGeometry height="44" width="130" x="355" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="leer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="res" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="res" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="d" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="d" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="par" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="d" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;exitX=1;exitY=0.5;entryX=0.5;entryY=0;" target="imp" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="par" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="fin" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="imp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="fin" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="630" />
+              <mxPoint x="420" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,2 @@
+P01;Tornillo;100
+P02;Tuerca;80
